@@ -18,10 +18,16 @@ namespace Sportka
         public string GenerateField()
         {
             string output = string.Empty;
+            HashSet<int> numbers = new HashSet<int>();
 
-            for (int i = 0; i < 6; i++)
+            while (numbers.Count < 6)
+                numbers.Add(Rand.Next(1, 49));
+
+            numbers = numbers.OrderBy(x => x).ToHashSet();
+
+            foreach (int num in numbers)
             {
-                output += " " + Rand.Next(1, 49).ToString("D2");
+                output += " " + num.ToString("D2");
             }
 
             return output;
