@@ -10,6 +10,8 @@ namespace HelloWorld
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Hello World!"); // vypsání textu do konzole
+            Console.ReadKey(); // čekání na stisk klávesy
         }
     }
 }
