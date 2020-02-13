@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sportka", "Sportka\Sportka.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kalkulacka", "Kalkulacka\Kalkulacka.csproj", "{4817C924-146C-4D4F-84CF-27FCCE84FA91}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kondiciogram", "Kondiciogram\Kondiciogram.csproj", "{8432A7ED-FE5C-4690-A065-39AB1A69C798}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{4817C924-146C-4D4F-84CF-27FCCE84FA91}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4817C924-146C-4D4F-84CF-27FCCE84FA91}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4817C924-146C-4D4F-84CF-27FCCE84FA91}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8432A7ED-FE5C-4690-A065-39AB1A69C798}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8432A7ED-FE5C-4690-A065-39AB1A69C798}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8432A7ED-FE5C-4690-A065-39AB1A69C798}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8432A7ED-FE5C-4690-A065-39AB1A69C798}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
