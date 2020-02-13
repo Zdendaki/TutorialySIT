@@ -52,7 +52,7 @@
             this.OutputBox.Name = "OutputBox";
             this.OutputBox.ReadOnly = true;
             this.OutputBox.Size = new System.Drawing.Size(276, 20);
-            this.OutputBox.TabIndex = 1;
+            this.OutputBox.TabIndex = 2;
             this.OutputBox.DoubleClick += new System.EventHandler(this.OutputBox_DoubleClick);
             // 
             // PasswordBox
@@ -60,7 +60,7 @@
             this.PasswordBox.Location = new System.Drawing.Point(12, 74);
             this.PasswordBox.Name = "PasswordBox";
             this.PasswordBox.Size = new System.Drawing.Size(276, 20);
-            this.PasswordBox.TabIndex = 2;
+            this.PasswordBox.TabIndex = 1;
             this.PasswordBox.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TextBox_KeyPress);
             // 
             // label1
@@ -95,7 +95,7 @@
             this.Decrypt.Location = new System.Drawing.Point(213, 157);
             this.Decrypt.Name = "Decrypt";
             this.Decrypt.Size = new System.Drawing.Size(75, 23);
-            this.Decrypt.TabIndex = 8;
+            this.Decrypt.TabIndex = 4;
             this.Decrypt.Text = "Dešifrovat";
             this.Decrypt.UseVisualStyleBackColor = true;
             this.Decrypt.Click += new System.EventHandler(this.Decrypt_Click);
@@ -105,7 +105,7 @@
             this.Encrypt.Location = new System.Drawing.Point(132, 157);
             this.Encrypt.Name = "Encrypt";
             this.Encrypt.Size = new System.Drawing.Size(75, 23);
-            this.Encrypt.TabIndex = 9;
+            this.Encrypt.TabIndex = 3;
             this.Encrypt.Text = "Šifrovat";
             this.Encrypt.UseVisualStyleBackColor = true;
             this.Encrypt.Click += new System.EventHandler(this.Encrypt_Click);
