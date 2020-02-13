@@ -23,13 +23,17 @@ namespace Kondiciogram
             DateTime today = DateTime.Today;
             int life = (int)(today - BirthDate.Value.Date).TotalDays;
 
+            Graph.Series[0].Points.Clear();
+            Graph.Series[1].Points.Clear();
+            Graph.Series[2].Points.Clear();
+
             for (int i = -10; i < 30; i++)
             {
                 Graph.Series[0].Points.AddXY(DateTime.Today.AddDays(i).ToString("d.M.yyyy"), CountCycle(life + i, 1));
                 Graph.Series[1].Points.AddXY(DateTime.Today.AddDays(i).ToString("d.M.yyyy"), CountCycle(life + i, 2));
                 Graph.Series[2].Points.AddXY(DateTime.Today.AddDays(i).ToString("d.M.yyyy"), CountCycle(life + i, 3));
 
-                //Graph.Annotations[0].Visible = true;
+                Graph.Annotations[0].Visible = true;
             }
         }
 

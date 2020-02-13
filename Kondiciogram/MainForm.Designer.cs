@@ -62,9 +62,12 @@
             this.Graph.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            verticalLineAnnotation1.AnchorX = 5D;
+            verticalLineAnnotation1.AxisXName = "ChartArea1\\rX";
             verticalLineAnnotation1.ClipToChartArea = "ChartArea1";
             verticalLineAnnotation1.Height = 100D;
             verticalLineAnnotation1.LineColor = System.Drawing.Color.Red;
+            verticalLineAnnotation1.LineWidth = 2;
             verticalLineAnnotation1.Name = "Today";
             this.Graph.Annotations.Add(verticalLineAnnotation1);
             chartArea1.AxisX.Interval = 3D;
@@ -80,14 +83,17 @@
             this.Graph.Legends.Add(legend1);
             this.Graph.Location = new System.Drawing.Point(15, 121);
             this.Graph.Name = "Graph";
+            series1.BorderWidth = 2;
             series1.ChartArea = "ChartArea1";
             series1.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline;
             series1.Legend = "Legend1";
             series1.Name = "Fyzický cyklus";
+            series2.BorderWidth = 2;
             series2.ChartArea = "ChartArea1";
             series2.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline;
             series2.Legend = "Legend1";
             series2.Name = "Psychický cyklus";
+            series3.BorderWidth = 2;
             series3.ChartArea = "ChartArea1";
             series3.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline;
             series3.Legend = "Legend1";
